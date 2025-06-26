@@ -118,6 +118,3 @@ These visualizations showcase specific areas where the Transformer model struggl
 
 ---
 
-### How to Cite
-
-If you use these results in your work, please cite the corresponding Master's Thesis.
