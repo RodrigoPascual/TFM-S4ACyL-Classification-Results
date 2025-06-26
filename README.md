@@ -97,7 +97,7 @@ These visualizations showcase specific areas where the Transformer model struggl
   <tr>
     <td align="center"><b>2020_30TUM_patch_18_02</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2020_30TUM_patch_18_02.nc.png"></td>
     <td align="center"><b>2021_30TUM_patch_10_15</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2021_30TUM_patch_10_15.nc.png"></td>
-    <td align="center"><b>2021_30TUM_patch_14_17</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2021_30TUM_patch_14_17.nc.png"></td>
+    <td align="center"><b>2021_30TUM_patch_14_17</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2021_30TUN_patch_14_17.nc.png"></td>
   </tr>
   <tr>
     <td align="center"><b>2022_30TUM_patch_01_25</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2022_30TUM_patch_01_25.nc.png"></td>
