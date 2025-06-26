@@ -3,10 +3,9 @@
 <!-- --------------------------------------------------------------------- -->
 <p align="center">
   <img src="https://img.shields.io/github/last-commit/RodrigoPascual/TFM-S4ACyL-Classification-Results?style=flat-square">
-  <img src="https://img.shields.io/badge/Type-Research%20Results-blue.svg?style=flat-square">
+  <img src="https://img.shields.io/badge/Type-Research%20Results-blue?style=flat-square">
   <a href="https://github.com/RodrigoPascual/S4A-CyL"><img src="https://img.shields.io/badge/Dataset%20Repo-S4A--CyL-green?style=flat-square"></a>
-  <a href="https://github.com/Orion-AI-Lab/S4A-Models"><img src="https://img.shields.io/badge/Framework%20Repo-S4A--Models-green?style=flat-square"></a>
-  <a href="https://hdl.handle.net/10259/10551"><img src="https://img.shields.io/badge/dataset-Riubu-orange?style=flat-square"></a>
+  <a href="https://github.com/Orion-AI-Lab/S4A-Models"><img src="https://img.shields.io/badge/Framework%20Repo-S4A--Models-orange?style=flat-square"></a>
 </p>
 
 <h1 align="center">S4A-CyL Crop Classification Results</h1>
@@ -20,8 +19,6 @@ This repository serves as a digital supplement to the official Master's Thesis d
 
 > **TL;DR**
 > This repo contains all the cool visuals that didn't fit in the paper. Browse the results below to see how the models performed.
-
----
 
 ### Table of Contents
 - [Quick Links](#quick-links)
@@ -53,13 +50,30 @@ The normalized confusion matrices show a near-perfect diagonal, indicating a ver
 
 ### Visualization Examples (OAD-BiLSTM)
 
-The following images compare the ground truth labels with the predictions from the LSTM model on specific patches. The visual alignment between the prediction and the ground truth is remarkably high.
+The following gallery displays prediction maps for 12 selected patches, comparing ground truth labels with the LSTM model's output. The visual alignment between prediction and reality is remarkably high across different years and tiles.
 
-**Patch Prediction: `2024_30TUM_patch_00_16`**
-![LSTM Visualization on Patch 1](assets/lstm/visualizations/oad_visualization_single_lstm_2024_30TUM_patch_00_16.nc.png)
-
-**Patch Prediction: `2023_30TUM_patch_05_10`**
-![LSTM Visualization on Patch 2](assets/lstm/visualizations/oad_visualization_single_lstm_2023_30TUM_patch_05_10.nc.png)
+<table>
+  <tr>
+    <td align="center"><b>2020_30TUM_patch_18_02</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2020_30TUM_patch_18_02.nc.png"></td>
+    <td align="center"><b>2021_30TUM_patch_10_15</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2021_30TUM_patch_10_15.nc.png"></td>
+    <td align="center"><b>2021_30TUM_patch_14_17</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2021_30TUM_patch_14_17.nc.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>2022_30TUM_patch_11_08</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2022_30TUM_patch_11_08.nc.png"></td>
+    <td align="center"><b>2022_30TVN_patch_06_22</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2022_30TVN_patch_06_22.nc.png"></td>
+    <td align="center"><b>2022_30TWM_patch_21_23</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2022_30TWM_patch_21_23.nc.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>2023_29TQF_patch_19_04</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2023_29TQF_patch_19_04.nc.png"></td>
+    <td align="center"><b>2023_30TUM_patch_05_10</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2023_30TUM_patch_05_10.nc.png"></td>
+    <td align="center"><b>2023_30TUM_patch_22_19</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2023_30TUM_patch_22_19.nc.png"></td>
+  </tr>
+   <tr>
+    <td align="center"><b>2024_30TUM_patch_00_16</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2024_30TUM_patch_00_16.nc.png"></td>
+    <td align="center"><b>2024_30TUM_patch_20_15</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2024_30TUM_patch_20_15.nc.png"></td>
+    <td align="center"><b>2024_30TWN_patch_00_16</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2024_30TWN_patch_00_16.nc.png"></td>
+  </tr>
+</table>
 
 ---
 
@@ -79,10 +93,31 @@ The confusion matrices below highlight the model's tendency to misclassify certa
 
 These visualizations showcase specific areas where the Transformer model struggles, particularly in differentiating crops with similar temporal signatures.
 
-**Patch Prediction: `2024_30TUM_patch_00_16`**
-![Transformer Visualization on Patch 1](assets/transformer/visualizations/oad_visualization_single_transformer_2024_30TUM_patch_00_16.nc.png)
-
-**Patch Prediction: `2023_30TUM_patch_05_10`**
-![Transformer Visualization on Patch 2](assets/transformer/visualizations/oad_visualization_single_transformer_2023_30TUM_patch_05_10.nc.png)
+<table>
+  <tr>
+    <td align="center"><b>2020_30TUM_patch_18_02</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2020_30TUM_patch_18_02.nc.png"></td>
+    <td align="center"><b>2021_30TUM_patch_10_15</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2021_30TUM_patch_10_15.nc.png"></td>
+    <td align="center"><b>2021_30TUM_patch_14_17</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2021_30TUM_patch_14_17.nc.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>2022_30TUM_patch_01_25</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2022_30TUM_patch_01_25.nc.png"></td>
+    <td align="center"><b>2022_30TUM_patch_11_08</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2022_30TUM_patch_11_08.nc.png"></td>
+    <td align="center"><b>2022_30TVN_patch_06_22</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2022_30TVN_patch_06_22.nc.png"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>2023_29TQF_patch_19_04</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2023_29TQF_patch_19_04.nc.png"></td>
+    <td align="center"><b>2023_30TUM_patch_05_10</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2023_30TUM_patch_05_10.nc.png"></td>
+    <td align="center"><b>2023_30TUM_patch_22_19</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2023_30TUM_patch_22_19.nc.png"></td>
+  </tr>
+   <tr>
+    <td align="center"><b>2024_30TUM_patch_00_16</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2024_30TUM_patch_00_16.nc.png"></td>
+    <td align="center"><b>2024_30TUM_patch_20_15</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2024_30TUM_patch_20_15.nc.png"></td>
+    <td align="center"><b>2022_30TWM_patch_21_23</b><br><img src="assets/transformer/visualizations/oad_visualization_single_transformer_2022_30TWM_patch_21_23.nc.png"></td>
+  </tr>
+</table>
 
 ---
+
+### How to Cite
+
+If you use these results in your work, please cite the corresponding Master's Thesis.
