@@ -56,7 +56,7 @@ The following gallery displays prediction maps for 12 selected patches, comparin
   <tr>
     <td align="center"><b>2020_30TUM_patch_18_02</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2020_30TUM_patch_18_02.nc.png"></td>
     <td align="center"><b>2021_30TUM_patch_10_15</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2021_30TUM_patch_10_15.nc.png"></td>
-    <td align="center"><b>2021_30TUM_patch_14_17</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2021_30TUM_patch_14_17.nc.png"></td>
+    <td align="center"><b>2021_30TUM_patch_14_17</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2021_30TUN_patch_14_17.nc.png"></td>
   </tr>
   <tr>
     <td align="center"><b>2022_30TUM_patch_11_08</b><br><img src="assets/lstm/visualizations/oad_visualization_single_lstm_2022_30TUM_patch_11_08.nc.png"></td>
