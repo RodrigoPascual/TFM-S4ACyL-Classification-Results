@@ -2,10 +2,10 @@
 <!--         TFM-S4ACyL-Classification-Results – Official README           -->
 <!-- --------------------------------------------------------------------- -->
 <p align="center">
-  <img src="https://img.shields.io/github/last-commit/RodrigoPascual/TFM-S4ACyL-Classification-Results?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Type-Research%20Results-blue.svg?style=for-the-badge">
-  <a href="https://github.com/RodrigoPascual/S4A-CyL"><img src="https://img.shields.io/badge/Dataset%20Repo-S4A--CyL-green?style=for-the-badge"></a>
-  <a href="https://github.com/Orion-AI-Lab/S4A-Models"><img src="https://img.shields.io/badge/Framework%20Repo-S4A--Models-orange?style=for-the-badge"></a>
+  <img src="https://img.shields.io/github/last-commit/RodrigoPascual/TFM-S4ACyL-Classification-Results?style=flat-square">
+  <img src="https://img.shields.io/badge/Type-Research%20Results-blue.svg?style=flat-square">
+  <a href="https://github.com/RodrigoPascual/S4A-CyL"><img src="https://img.shields.io/badge/Dataset%20Repo-S4A--CyL-green?style=flat-square"></a>
+  <a href="https://github.com/Orion-AI-Lab/S4A-Models"><img src="https://img.shields.io/badge/Framework%20Repo-S4A--Models-orange?style=flat-square"></a>
 </p>
 
 <h1 align="center">S4A-CyL Crop Classification Results</h1>
