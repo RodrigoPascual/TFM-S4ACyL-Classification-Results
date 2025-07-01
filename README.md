@@ -24,7 +24,6 @@ This repository serves as a digital supplement to the official Master's Thesis d
 - [Quick Links](#quick-links)
 - [OAD-BiLSTM Model Results](#oad-bilstm-model-results)
 - [OAD-Transformer Model Results](#oad-transformer-model-results)
-- [How to Cite](#how-to-cite)
 
 ---
 
