@@ -1,0 +1,29 @@
+Weighted Pixel-Level Metrics (Epoch 0):
+Total weighted correct (sum over parcels): 98029584.00
+Total counts (total pixels): 124954751.00
+Global Pixel Accuracy:         0.784520662
+Overall Weighted Precision:    0.776838280
+Overall Weighted Recall:       0.784520662
+Overall Weighted F1-score:     0.772074766
+Per-Class Details:
+  Class 0: TP=35893057.00, FP=7747606.00, FN=9001426.00, Precision=0.8225, Recall=0.7995, F1=0.8108
+  Class 1: TP=6462706.00, FP=362929.00, FN=333178.00, Precision=0.9468, Recall=0.9510, F1=0.9489
+  Class 2: TP=31018918.00, FP=12106854.00, FN=4785113.00, Precision=0.7193, Recall=0.8664, F1=0.7860
+  Class 3: TP=873416.00, FP=656840.00, FN=3569394.00, Precision=0.5708, Recall=0.1966, F1=0.2925
+  Class 4: TP=1594017.00, FP=1335481.00, FN=4527347.00, Precision=0.5441, Recall=0.2604, F1=0.3522
+  Class 5: TP=2266508.00, FP=596791.00, FN=175074.00, Precision=0.7916, Recall=0.9283, F1=0.8545
+  Class 6: TP=1158239.00, FP=247879.00, FN=776173.00, Precision=0.8237, Recall=0.5988, F1=0.6934
+  Class 7: TP=13759032.00, FP=1564894.00, FN=995412.00, Precision=0.8979, Recall=0.9325, F1=0.9149
+  Class 8: TP=925547.00, FP=422136.00, FN=1178365.00, Precision=0.6868, Recall=0.4399, F1=0.5363
+  Class 9: TP=4078144.00, FP=1883757.00, FN=1583685.00, Precision=0.6840, Recall=0.7203, F1=0.7017
+Per-Class Summary from Confusion Matrix:
+Class 0 (Wheat): Accuracy = 82.09%, Most confused with class 2 (Barley) at 14.13%
+Class 1 (Maize): Accuracy = 96.70%, Most confused with class 7 (Sunflower) at 1.49%
+Class 2 (Barley): Accuracy = 82.90%, Most confused with class 0 (Wheat) at 12.97%
+Class 3 (Rye): Accuracy = 13.30%, Most confused with class 0 (Wheat) at 56.26%
+Class 4 (Oats): Accuracy = 25.90%, Most confused with class 2 (Barley) at 36.77%
+Class 5 (Grapes): Accuracy = 88.01%, Most confused with class 7 (Sunflower) at 4.87%
+Class 6 (Rapeseed): Accuracy = 53.60%, Most confused with class 2 (Barley) at 28.35%
+Class 7 (Sunflower): Accuracy = 88.73%, Most confused with class 5 (Grapes) at 4.96%
+Class 8 (Peas): Accuracy = 38.04%, Most confused with class 2 (Barley) at 32.07%
+Class 9 (Leguminous crops n.e.c.): Accuracy = 63.98%, Most confused with class 2 (Barley) at 19.71%
